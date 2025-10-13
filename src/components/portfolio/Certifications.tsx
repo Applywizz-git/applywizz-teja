@@ -86,7 +86,7 @@ const Certifications = () => {
                       className="flex items-center justify-center gap-2 text-primary hover:text-primary/80 transition-colors"
                     >
                       {/* <span className="text-sm font-medium">View Credential</span> */}
-                      <ExternalLink className="w-4 h-4" />
+                      {/* <ExternalLink className="w-4 h-4" /> */}
                     </motion.a>
                   )}
                 </div>
