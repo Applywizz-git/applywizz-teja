@@ -64,8 +64,8 @@ const Certifications = () => {
 
                   {/* Issuer and Date */}
                   <div className="text-center mb-4">
-                    <p className="text-muted-foreground font-medium">{cert.issuer}</p>
-                    <p className="text-sm text-muted-foreground">{cert.date}</p>
+                    {/* <p className="text-muted-foreground font-medium">{cert.issuer}</p>
+                    <p className="text-sm text-muted-foreground">{cert.date}</p> */}
                   </div>
 
                   {/* Credential ID */}
@@ -85,7 +85,7 @@ const Certifications = () => {
                       whileTap={{ scale: 0.95 }}
                       className="flex items-center justify-center gap-2 text-primary hover:text-primary/80 transition-colors"
                     >
-                      <span className="text-sm font-medium">View Credential</span>
+                      {/* <span className="text-sm font-medium">View Credential</span> */}
                       <ExternalLink className="w-4 h-4" />
                     </motion.a>
                   )}
