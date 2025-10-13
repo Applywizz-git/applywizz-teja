@@ -137,10 +137,10 @@ const Projects = () => {
                         whileTap={{ scale: 0.95 }}
                         className="flex-1"
                       >
-                        <Button className="w-full neon-glow">
+                        {/* <Button className="w-full neon-glow">
                           <ExternalLink className="w-4 h-4 mr-2" />
                           Preview
-                        </Button>
+                        </Button> */}
                       </motion.a>
                       <motion.a
                         href={project.github}
@@ -150,10 +150,10 @@ const Projects = () => {
                         whileTap={{ scale: 0.95 }}
                         className="flex-1"
                       >
-                        <Button variant="outline" className="w-full">
+                        {/* <Button variant="outline" className="w-full">
                           <Github className="w-4 h-4 mr-2" />
                           Code
-                        </Button>
+                        </Button> */}
                       </motion.a>
                     </div>
                   </div>
