@@ -30,7 +30,7 @@ const Footer = () => {
           </motion.a>
 
           <motion.a
-            href={personalInfo.linkedin}
+            href="https://www.linkedin.com/in/ravitejamanne23/"
             whileHover={{ scale: 1.2, y: -5 }}
             className="text-foreground hover:text-primary neon-glow"
             target="_blank"

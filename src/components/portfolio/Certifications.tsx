@@ -64,8 +64,8 @@ const Certifications = () => {
 
                   {/* Issuer and Date */}
                   <div className="text-center mb-4">
-                    <p className="text-muted-foreground font-medium">{cert.issuer}</p>
-                    <p className="text-sm text-muted-foreground">{cert.date}</p>
+                    {/* <p className="text-muted-foreground font-medium">{cert.issuer}</p>
+                    <p className="text-sm text-muted-foreground">{cert.date}</p> */}
                   </div>
 
                   {/* Credential ID */}
