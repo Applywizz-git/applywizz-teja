@@ -24,7 +24,7 @@ export const personalInfo = {
 
 export const stats = [
   { label: "Years Experience", value: 6, suffix: "+" },
-  { label: "Projects Completed", value: 15, suffix: "+" },
+  { label: "Projects Completed", value: 10, suffix: "+" },
   { label: "Technologies Mastered", value: 40, suffix: "+" },
   { label: "System Uptime", value: 99.99, suffix: "%" }
 ];
@@ -267,7 +267,7 @@ export const certifications = [
     id: 1,
     name: "AWS Certified Developer Associate",
     issuer: "Amazon Web Services",
-    date: "2023",
+    date: "",
     credentialId: "AWS-DEV-2023",
     link: "https://aws.amazon.com/certification/"
   },
@@ -275,7 +275,7 @@ export const certifications = [
     id: 2,
     name: "Oracle Certified Java SE Programmer 21",
     issuer: "Oracle",
-    date: "2023",
+    date: "",
     credentialId: "ORACLE-JAVA-21",
     link: "https://education.oracle.com/java-se-programmer"
   },
@@ -283,7 +283,7 @@ export const certifications = [
     id: 3,
     name: "Java Programming Fundamentals",
     issuer: "Coursera",
-    date: "2022",
+    date: "",
     credentialId: "COURSERA-JAVA",
     link: "https://www.coursera.org/"
   },
@@ -291,7 +291,7 @@ export const certifications = [
     id: 4,
     name: "Spring Framework",
     issuer: "LinkedIn Learning",
-    date: "2022",
+    date: "",
     credentialId: "LINKEDIN-SPRING",
     link: "https://www.linkedin.com/learning/"
   },
@@ -299,7 +299,7 @@ export const certifications = [
     id: 5,
     name: "Applied Artificial Intelligence with IBM Watson",
     issuer: "Coursera",
-    date: "2021",
+    date: "",
     credentialId: "COURSERA-AI-IBM",
     link: "https://www.coursera.org/"
   }

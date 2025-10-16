@@ -48,7 +48,7 @@ const About = () => {
           <h3 className="text-2xl md:text-3xl font-bold text-center mb-8">
             Core <span className="gradient-text">Expertise</span>
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols- md:grid-cols-3 gap-6">
             {[
               {
                 title: 'Backend Development',
@@ -60,19 +60,37 @@ const About = () => {
               },
               {
                 title: 'Cloud & DevOps',
-                desc: 'AWS, Azure, Kubernetes, Docker, CI/CD'
+                desc: 'AWS, Azure, Kubernetes, Docker, CI/CD' 
               }
             ].map((item, index) => (
               <motion.div
-                key={index}
-                whileHover={{ scale: 1.05, boxShadow: 'var(--shadow-glow)' }}
-                transition={{ duration: 0.3 }}
-              >
-                <Card className="p-6 glass hover:border-primary transition-all">
-                  <h4 className="text-xl font-bold mb-3 gradient-text">{item.title}</h4>
-                  <p className="text-muted-foreground">{item.desc}</p>
-                </Card>
-              </motion.div>
+  key={index}
+  whileHover={{
+    scale: 1.05,
+    boxShadow: 'var(--shadow-glow)',
+    border: '2px solid var(--primary)',  // Ensure it applies a purple border on hover
+  }}
+  transition={{ duration: 0.3 }}
+>
+  <Card className="p-6 glass border-2 border-transparent hover:border-primary hover:border-2 transition-all block w-full h-full">
+    <h4 className="text-xl font-bold mb-3 gradient-text">{item.title}</h4>
+    <p className="text-muted-foreground">{item.desc}</p>
+  </Card>
+</motion.div>
+
+
+
+
+              // <motion.div
+              //   key={index}
+              //   whileHover={{ scale: 1.05, boxShadow: 'var(--shadow-glow)' }}
+              //   transition={{ duration: 0.3 }}
+              // >
+              //   <Card className="p-6 glass hover:border-primary transition-all">
+              //     <h4 className="text-xl font-bold mb-3 gradient-text">{item.title}</h4>
+              //     <p className="text-muted-foreground">{item.desc}</p>
+              //   </Card>
+              // </motion.div>
             ))}
           </div>
         </motion.div>
